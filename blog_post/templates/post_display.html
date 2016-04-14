@@ -1,0 +1,6 @@
+{% block content %}
+    <h2>{{post.title}}</h2>
+    <h3>{{post.authors.get.full_name}}</h3>
+    <h4>{{post.date_creation}}</h4>
+    <p>{{post.body}}</p>
+{% endblock %}
